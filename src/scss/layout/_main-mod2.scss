@@ -1,0 +1,84 @@
+.main {
+  background-color: $white;
+  width: 100%;
+  height: 300px;
+}
+.h4 {
+  font-size: 0.875rem;
+  color: $lightblue;
+  font-family: $font-roboto;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.h2-modulo2 {
+  font-size: 1.5rem;
+  color: $k;
+  font-family: $font-roboto-slab;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.p-modulo2 {
+  font-size: 1.125rem;
+  color: $greyish-brown;
+  font-family: $font-roboto;
+  margin-top: 20px;
+  margin-left: 15px;
+  line-height: 1.67;
+}
+.go {
+  background-color: $white;
+  border: 3px solid $c;
+  color: $c;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 76px;
+  height: 25px;
+  border-radius: 22.5px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: $font-roboto;
+  font-weight: 500;
+  transition: color ease 0.8s;
+}
+.go:hover {
+    color: black;}
+
+@media all and (min-width: 768px) {
+  .h4 {
+    margin-left: 39px;
+  }
+  .h2-modulo2 {
+    margin-left: 39px;
+    font-size: 1.625rem;
+  }
+  .p-modulo2 {
+    margin-left: 39px;
+    font-size: 1.25rem;
+  }
+  .go {
+    margin-left: 39px;
+    width: 91px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .h4 {
+    margin-left: 275px;
+  }
+  .h2-modulo2 {
+    margin-left: 275px;
+    font-size: 2rem;
+  }
+  .p-modulo2 {
+    margin-left: 275px;
+    
+  }
+  .go {
+    margin-left: 275px;
+    width: 160px;
+  }
+}
