@@ -1,5 +1,86 @@
-.footer{
-    background-color: red;
-    width: 100%;
-    height: 300px;
+.container {
+  background-color: $dark-grey-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
+.scroll-up {
+  width: 45px;
+  height: 45px;
+  background-color: $white;
+  border-radius: 25px;
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top:-30px;
+}
+
+@keyframes spin{
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+.scroll-footer {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 1px 2px;
+}
+
+.nav1,
+.nav2 {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: $font-roboto;
+  margin: 30px 40px;
+  
+}
+
+.li {
+  text-decoration: none;
+  color: $white;
+  padding: 5px;
+}
+.link-footer {
+  text-decoration: none;
+}
+
+.nav2 {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.small {
+  font-size: 0.875rem;
+  font-family: $font-roboto;
+  color: $white;
+  text-align: center;
+  margin: 30px 40px;
+  
+}
+.span-footer-1 {
+  display: block;
+  margin: 10px;
+}
+.span-footer-2 {
+  color: red;
+}
+
+@media all and (min-width: 768px) {
+
+.container{
+    flex-direction:row-reverse;
+    align-items: center;
+}
+
+}
+
+@media all and (min-width: 1200px) {}
