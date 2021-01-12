@@ -16,17 +16,17 @@
   animation-duration: 6s;
   animation-iteration-count: infinite;
   position: absolute;
-  top:-30px;
+  top: -30px;
 }
 
-@keyframes spin{
-    from{
-        transform: scale(0);
-    }
+@keyframes spin {
+  from {
+    transform: scale(0);
+  }
 
-    to{
-        transform: scale(1);
-    }
+  to {
+    transform: scale(1);
+  }
 }
 .scroll-footer {
   width: 20px;
@@ -40,8 +40,8 @@
   text-transform: uppercase;
   text-decoration: none;
   font-family: $font-roboto;
-  margin: 30px 40px;
-  
+  margin: 25px auto 10px;
+  text-align: center;
 }
 
 .li {
@@ -53,18 +53,12 @@
   text-decoration: none;
 }
 
-.nav2 {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .small {
   font-size: 0.875rem;
   font-family: $font-roboto;
   color: $white;
   text-align: center;
   margin: 30px 40px;
-  
 }
 .span-footer-1 {
   display: block;
@@ -75,12 +69,15 @@
 }
 
 @media all and (min-width: 768px) {
-
-.container{
-    flex-direction:row-reverse;
+  .container {
+    flex-direction: row-reverse;
     align-items: center;
+  }
+
+  .nav1,
+  .nav2 {
+    margin: 30px 40px;
+  }
 }
 
-}
-
-@media all and (min-width: 1200px) {}
+// @media all and (min-width: 1200px) {}

@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 20%;
-
 }
 
 .h2-modulo3 {
@@ -45,12 +44,11 @@
   height: 25px;
   border-radius: 22.5px;
   text-decoration: none;
-  margin:-5px auto 40px;
-  
+  margin: -5px auto 40px;
+
   font-family: $font-roboto;
   font-weight: 500;
   transition: background-color ease 0.8s;
-  
 }
 .more-reason:hover {
   background-color: $dark-grey-blue;
@@ -65,31 +63,26 @@
     grid-column: 1/4;
     font-size: 1.625rem;
   }
-  .item1 {
-  }
-  .item2 {
-  }
-  .item3 {
-  }
+
   .more-reason {
     grid-column: 1/4;
   }
-  .h4-modulo3, .p-modulo3{
-      font-size: 1.25rem;
+  .h4-modulo3,
+  .p-modulo3 {
+    font-size: 1.25rem;
   }
 }
 
 @media all and (min-width: 1200px) {
   .h2-modulo3 {
-   font-size: 2rem;
-   
+    font-size: 2rem;
   }
-  .h4-modulo3, .p-modulo3{
-      font-size: 1.5rem;
-     
+  .h4-modulo3,
+  .p-modulo3 {
+    font-size: 1.5rem;
   }
 
   .more-reason {
     margin-top: -30px;
-}
+  }
 }

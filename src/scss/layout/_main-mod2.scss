@@ -1,7 +1,6 @@
 .main {
   background-color: $white;
   width: 100%;
-  
 }
 .h4 {
   font-size: 0.875rem;
@@ -42,10 +41,12 @@
   margin-left: 15px;
   font-family: $font-roboto;
   font-weight: 500;
-  transition: color ease 0.8s;
+  transition: color ease 0.8s, background-color ease 0.8s;
 }
 .go:hover {
-    color: black;}
+  color: $white;
+  background-color: $c;
+}
 
 @media all and (min-width: 768px) {
   .h4 {
@@ -75,7 +76,6 @@
   }
   .p-modulo2 {
     margin-left: 275px;
-    
   }
   .go {
     margin-left: 275px;
