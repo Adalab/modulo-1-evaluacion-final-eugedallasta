@@ -1,0 +1,28 @@
+.new-section{
+    width: 100%;
+    background-color: $c;
+}
+.h2new, .pnew{
+    color: $white;
+
+}
+.new-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (min-width: 768px) {
+.new-section{
+flex-direction: row;
+justify-content: space-between;
+background-color: $dark-grey-blue;
+
+}
+
+.h2new, .pnew{
+    margin: 0 20px;
+}
+    
+}
